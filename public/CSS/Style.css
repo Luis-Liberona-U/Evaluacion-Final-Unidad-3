@@ -1,0 +1,21 @@
+input.invalid, textarea.invalid {
+    border-color: #ff4d4d !important;
+    background-color: #fff5f5;
+}
+/*Esto hace que mis errores salgan con rojo */
+.error-text {
+    color: #ff4d4d;
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+    min-height: 18px; 
+}
+/*Esto hace que mis datos exitoso salgan en verde */
+.success-text {  
+    color: #28a745;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}

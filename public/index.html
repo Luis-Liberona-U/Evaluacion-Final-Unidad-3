@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reporte de Consolas</title>
+u    <title>Reporte de Consolas</title>
+<link rel="stylesheet" href="CSS/Style.css">
 </head>
 <body>
     <div class="fomulario">
@@ -19,39 +19,26 @@
             <span id="errorConsola" class="error-text"></span>
 
             <label for="anio">Año de Lanzamiento:</label>
-            <input type="number" id="anio" placeholder="Ej: 2000, 1990, 2013">
+            <input type="text" id="anio" placeholder="Ej: 2000, 1990, 2013">
             <span id="errorAnio" class="error-text"></span>
 
             <label for="falla">Falla o Problema Detectado:</label>
             <textarea id="falla" placeholder="Ej: Pantalla negra, Lector malo, etc..."></textarea>
             <span id="errorFalla" class="error-text"></span>
 
-
-
-
-
-
-
-
-
+            <button type="submit">Registrar Reporte</button>
 
         </form>
 
+        <p id="mensajeGlobal"></p>
 
+        <button id="btnCargar">Cargar Último Diagnóstico</button>
 
-
-
-
-
-
-
-
-
-
-
+        <div id="infoContainer"></div>
 
     </div>
 
+    <script src="script.js"></script>
     
 </body>
 </html>
