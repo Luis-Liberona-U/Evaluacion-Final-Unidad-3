@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS reporte_consola;
+USE reporte_consola;
+
+CREATE TABLE IF NOT EXISTS reporte (
+    id INT AUTO_INCREMENT PRIMARY KEY, 
+    cliente VARCHAR(100) NOT NULL,     
+    consola VARCHAR(50) NOT NULL,       
+    anio INT NOT NULL,                  
+    falla TEXT NOT NULL                 
+);
